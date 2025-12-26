@@ -2,3 +2,62 @@ random.txt
 ladwp_project_plan.md
 jobpost2.md
 jobpost.md
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+
+# User secrets (IMPORTANT - keeps API keys safe!)
+appsettings.Development.json
+secrets.json
+*.env
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+project.assets.json
+project.fragment.lock.json
+artifacts/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+*.trx
+
+# Backup files
+*.bak
+*.tmp
+*~
